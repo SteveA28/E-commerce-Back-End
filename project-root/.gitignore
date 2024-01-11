@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+
+# Dependency directories 
+/jspm_packages/
+/bower_components/
+
+# Environment variables file
+.env
+
+# Logs and temporary files 
+*.log
+*.tmp
+
+# Generated build files 
+/build/
+/dist/
+
+# IDE and editor-specific files 
+.vscode/
+.idea/
+
+# OS-generated files 
+.DS_Store
+Thumbs.db
+
+# Sequelize configuration 
+/config/config.json
+
+# Ignore any compiled or bundled code 
+*.bundle.js
+*.min.js
+
+# Ignore compiled binary addons 
+/build/Release
