@@ -1,36 +1,35 @@
 {
-    "development": {
-      "username": "your_mysql_username",
-      "password": "your_mysql_password",
-      "database": "your_database_name",
-      "host": "localhost",
-      "dialect": "mysql",
-      "port": 3306,
-      "define": {
-        "underscored": true
-      }
-    },
-    "test": {
-      "username": "your_mysql_username",
-      "password": "your_mysql_password",
-      "database": "your_test_database_name",
-      "host": "localhost",
-      "dialect": "mysql",
-      "port": 3306,
-      "define": {
-        "underscored": true
-      }
-    },
-    "production": {
-      "username": "your_production_mysql_username",
-      "password": "your_production_mysql_password",
-      "database": "your_production_database_name",
-      "host": "your_production_database_host",
-      "dialect": "mysql",
-      "port": 3306,
-      "define": {
-        "underscored": true
-      }
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "localhost",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": 3306,
+    "define": {
+      "underscored": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "localhost",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": 3306,
+    "define": {
+      "underscored": true
+    }
+  },
+  "production": {
+    "username": "your_production_mysql_username",
+    "password": "your_production_mysql_password",
+    "database": "your_production_database_name",
+    "host": "your_production_database_host",
+    "dialect": "mysql",
+    "port": 3306,
+    "define": {
+      "underscored": true
     }
   }
-  
+}
